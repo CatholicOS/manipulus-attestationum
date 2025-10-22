@@ -1,0 +1,63 @@
+digraph {
+    label = "\nMANIPULUS ATTESTATIO\nBasic System Layout\nv1.1";
+    node [shape = box;];
+    
+    // subgraph cluster_01 {
+    //     label = "MATTE System";
+    //     matteServer -> matteFormatter [colorscheme=set19;color = 1;];
+    //     matteServer -> matteResources [colorscheme=set19;color = 1;];
+    // }
+    
+    user -> browserFrontend [colorscheme=set19;color = 1;];
+    user -> cmdLineInterface [colorscheme=set19;color = 1;];
+    
+    browserFrontend -> requestHandler [colorscheme=set19;color = 4;];
+    cmdLineInterface -> requestHandler [colorscheme=set19;color = 4;];
+    
+    subgraph cluster_02 {
+        label = "Outputs";
+        packager -> outputText [colorscheme=set19;color = 3;];
+        packager -> outputImage [colorscheme=set19;color = 3;];
+        packager -> outputHTML [colorscheme=set19;color = 3;];
+        packager -> outputPDF [colorscheme=set19;color = 3;];
+    }
+    
+    subgraph cluster_03 {
+        label = "External Resources";
+        localFsManager -> bibleDatabases [colorscheme=set19;color = 2;];
+        apiManager -> bibleAPIs [colorscheme=set19;color = 2;];
+        localFsManager -> commentaryCorpus [colorscheme=set19;color = 2;];
+        apiManager -> textToSpeechService [colorscheme=set19;color = 2;];
+    }
+    
+    subgraph cluster_01 {
+        label = "MATTE System";
+        requestHandler -> queryHandler [colorscheme=set19;color = 1;];
+        queryHandler -> apiManager [colorscheme=set19;color = 1;];
+        queryHandler -> localFsManager [colorscheme=set19;color = 1;];
+        requestHandler -> formatter [colorscheme=set19;color = 1;];
+        formatter -> packager [colorscheme=set19;color = 1;];
+    }
+    
+    user [label = "User";shape = star;colorscheme = set19;color = 1;];
+
+    requestHandler [label = "Request Handler";shape = component;colorscheme = set19;color = 1;];
+    queryHandler [label = "Query Handler";shape = component;colorscheme = set19;color = 1;];
+    apiManager [label = "API Manager";shape = component;colorscheme = set19;color = 1;];
+    localFsManager [label = "Local File\nSystem Manager";shape = component;colorscheme = set19;color = 1;];
+    formatter [label = "Formatter";shape = component;colorscheme = set19;color = 1;];
+    packager [label = "Packager";shape = component;colorscheme = set19;color = 1;];
+    
+    browserFrontend [label = "Browser\nFront-End";shape = oval;colorscheme = set19;color = 4;];
+    cmdLineInterface [label = "Command-Line\nInterface";shape = oval;colorscheme = set19;color = 4;];
+    
+    bibleDatabases [label = "Bible\nDatabases";shape = cylinder;colorscheme = set19;color = 2;];
+    bibleAPIs [label = "Bible\nAPIs";shape = ellipse;colorscheme = set19;color = 2;];
+    commentaryCorpus [label = "Commentary Corpus\n(Multilingual)";shape = cylinder;colorscheme = set19;color = 2;];
+    textToSpeechService [label = "Text-to-Speech\nService";shape = box3d;colorscheme = set19;color = 2;];
+    
+    outputText [label = "Text";shape = note;colorscheme = set19;color = 3;];
+    outputImage [label = "Images";shape = note;colorscheme = set19;color = 3;];
+    outputHTML [label = "HTML/EPUB";shape = note;colorscheme = set19;color = 3;];
+    outputPDF [label = "PDF";shape = note;colorscheme = set19;color = 3;];
+}

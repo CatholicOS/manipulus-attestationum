@@ -1,0 +1,260 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="807pt" height="633pt" viewBox="0.00 0.00 807 632.92">
+<g id="graph0" class="graph" transform="translate(4,628.9199829101562) scale(1)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-628.92 803,-628.92 803,4 -4,4"/>
+<text text-anchor="middle" x="399.5" y="-41.8" font-family="Times,serif" font-size="14.00">MANIPULUS ATTESTATIO</text>
+<text text-anchor="middle" x="399.5" y="-25" font-family="Times,serif" font-size="14.00">Basic System Layout</text>
+<text text-anchor="middle" x="399.5" y="-8.2" font-family="Times,serif" font-size="14.00">v1.1</text>
+<g id="clust1" class="cluster" data-name="cluster_02">
+
+<polygon fill="none" stroke="black" points="8,-93.82 8,-170.62 338,-170.62 338,-93.82 8,-93.82"/>
+<text text-anchor="middle" x="173" y="-154.02" font-family="Times,serif" font-size="14.00">Outputs</text>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_03">
+
+<polygon fill="none" stroke="black" points="346,-82.4 346,-182.03 791,-182.03 791,-82.4 346,-82.4"/>
+<text text-anchor="middle" x="568.5" y="-165.43" font-family="Times,serif" font-size="14.00">External Resources</text>
+</g>
+<g id="clust3" class="cluster" data-name="cluster_01">
+
+<polygon fill="none" stroke="black" points="266,-190.03 266,-416.43 588,-416.43 588,-190.03 266,-190.03"/>
+<text text-anchor="middle" x="427" y="-399.83" font-family="Times,serif" font-size="14.00">MATTE System</text>
+</g>
+<!-- formatter -->
+<g id="node17" class="node" pointer-events="visible" data-name="formatter">
+
+<polygon fill="none" stroke="#e41a1c" points="346.71,-311.63 275.29,-311.63 275.29,-307.63 271.29,-307.63 271.29,-303.63 275.29,-303.63 275.29,-283.63 271.29,-283.63 271.29,-279.63 275.29,-279.63 275.29,-275.63 346.71,-275.63 346.71,-311.63"/>
+<polyline fill="none" stroke="#e41a1c" points="275.29,-307.63 279.29,-307.63 279.29,-303.63 275.29,-303.63"/>
+<polyline fill="none" stroke="#e41a1c" points="275.29,-283.63 279.29,-283.63 279.29,-279.63 275.29,-279.63"/>
+<text text-anchor="middle" x="311" y="-289.43" font-family="Times,serif" font-size="14.00">Formatter</text>
+</g>
+<!-- outputText -->
+<g id="node6" class="node" pointer-events="visible" data-name="outputText">
+
+<polygon fill="none" stroke="#4daf4a" points="324,-137.82 276,-137.82 276,-101.82 330,-101.82 330,-131.82 324,-137.82"/>
+<polyline fill="none" stroke="#4daf4a" points="324,-137.82 324,-131.82"/>
+<polyline fill="none" stroke="#4daf4a" points="330,-131.82 324,-131.82"/>
+<text text-anchor="middle" x="303" y="-115.62" font-family="Times,serif" font-size="14.00">Text</text>
+</g>
+<!-- formatter&#45;&gt;outputText -->
+<g id="edge1" class="edge" data-name="user-&gt;browserFrontend" data-comment="formatter-&gt;outputText">
+
+<path fill="none" stroke="#e41a1c" d="M341.05,-521.12C334.95,-511.27 328.65,-501.1 322.87,-491.77"/>
+<polygon fill="#e41a1c" stroke="#e41a1c" points="325.88,-489.98 317.64,-483.32 319.93,-493.67 325.88,-489.98"/>
+</g>
+<!-- outputImage -->
+<g id="node7" class="node" pointer-events="visible" data-name="outputImage">
+
+<polygon fill="none" stroke="#4daf4a" points="252.43,-137.82 201.57,-137.82 201.57,-101.82 258.43,-101.82 258.43,-131.82 252.43,-137.82"/>
+<polyline fill="none" stroke="#4daf4a" points="252.43,-137.82 252.43,-131.82"/>
+<polyline fill="none" stroke="#4daf4a" points="258.43,-131.82 252.43,-131.82"/>
+<text text-anchor="middle" x="230" y="-115.62" font-family="Times,serif" font-size="14.00">Images</text>
+</g>
+<!-- formatter&#45;&gt;outputImage -->
+<g id="edge2" class="edge" data-name="user-&gt;cmdLineInterface" data-comment="formatter-&gt;outputImage">
+
+<path fill="none" stroke="#e41a1c" d="M402.95,-521.12C408.94,-511.45 415.12,-501.47 420.81,-492.28"/>
+<polygon fill="#e41a1c" stroke="#e41a1c" points="423.67,-494.31 425.96,-483.97 417.72,-490.63 423.67,-494.31"/>
+</g>
+<!-- outputHTML -->
+<g id="node8" class="node" pointer-events="visible" data-name="outputHTML">
+
+<polygon fill="none" stroke="#4daf4a" points="177.84,-137.82 88.16,-137.82 88.16,-101.82 183.84,-101.82 183.84,-131.82 177.84,-137.82"/>
+<polyline fill="none" stroke="#4daf4a" points="177.84,-137.82 177.84,-131.82"/>
+<polyline fill="none" stroke="#4daf4a" points="183.84,-131.82 177.84,-131.82"/>
+<text text-anchor="middle" x="136" y="-115.62" font-family="Times,serif" font-size="14.00">HTML/EPUB</text>
+</g>
+<!-- formatter&#45;&gt;outputHTML -->
+<g id="edge3" class="edge" data-name="browserFrontend-&gt;requestHandler" data-comment="formatter-&gt;outputHTML">
+
+<path fill="none" stroke="#984ea3" d="M321.6,-426.98C330.66,-416.13 341.18,-403.53 350.26,-392.67"/>
+<polygon fill="#984ea3" stroke="#984ea3" points="352.78,-395.1 356.51,-385.18 347.41,-390.61 352.78,-395.1"/>
+</g>
+<!-- outputPDF -->
+<g id="node9" class="node" pointer-events="visible" data-name="outputPDF">
+
+<polygon fill="none" stroke="#4daf4a" points="64,-137.82 16,-137.82 16,-101.82 70,-101.82 70,-131.82 64,-137.82"/>
+<polyline fill="none" stroke="#4daf4a" points="64,-137.82 64,-131.82"/>
+<polyline fill="none" stroke="#4daf4a" points="70,-131.82 64,-131.82"/>
+<text text-anchor="middle" x="43" y="-115.62" font-family="Times,serif" font-size="14.00">PDF</text>
+</g><g id="edge4" class="edge" data-name="cmdLineInterface-&gt;requestHandler" data-comment="outputPDF">
+
+<path fill="none" stroke="#984ea3" d="M421.22,-425.57C412.42,-415.04 402.41,-403.04 393.72,-392.63"/>
+<polygon fill="#984ea3" stroke="#984ea3" points="396.55,-390.57 387.45,-385.14 391.18,-395.06 396.55,-390.57"/>
+</g>
+<!-- formatter&#45;&gt;outputPDF -->
+
+<!-- packager -->
+<g id="node5" class="node" pointer-events="visible" data-name="packager">
+
+<polygon fill="none" stroke="#e41a1c" points="341.8,-236.83 274.2,-236.83 274.2,-232.83 270.2,-232.83 270.2,-228.83 274.2,-228.83 274.2,-208.83 270.2,-208.83 270.2,-204.83 274.2,-204.83 274.2,-200.83 341.8,-200.83 341.8,-236.83"/>
+<polyline fill="none" stroke="#e41a1c" points="274.2,-232.83 278.2,-232.83 278.2,-228.83 274.2,-228.83"/>
+<polyline fill="none" stroke="#e41a1c" points="274.2,-208.83 278.2,-208.83 278.2,-204.83 274.2,-204.83"/>
+<text text-anchor="middle" x="308" y="-214.63" font-family="Times,serif" font-size="14.00">Packager</text>
+</g><g id="edge16" class="edge" data-name="requestHandler-&gt;formatter" data-comment="packager">
+
+<path fill="none" stroke="#e41a1c" d="M356.92,-347.33C349.83,-339.19 341.23,-329.32 333.4,-320.33"/>
+<polygon fill="#e41a1c" stroke="#e41a1c" points="336.11,-318.12 326.9,-312.88 330.83,-322.72 336.11,-318.12"/>
+</g>
+<!-- formatter&#45;&gt;packager -->
+<g id="edge17" class="edge" data-name="formatter-&gt;packager">
+
+<path fill="none" stroke="#e41a1c" d="M310.29,-275.38C309.96,-267.37 309.56,-257.63 309.18,-248.55"/>
+<polygon fill="#e41a1c" stroke="#e41a1c" points="312.69,-248.57 308.78,-238.72 305.69,-248.86 312.69,-248.57"/>
+</g>
+<!-- localFsManager -->
+<g id="node10" class="node" pointer-events="visible" data-name="localFsManager">
+
+<polygon fill="none" stroke="#e41a1c" points="470.48,-239.43 359.52,-239.43 359.52,-235.43 355.52,-235.43 355.52,-231.43 359.52,-231.43 359.52,-206.23 355.52,-206.23 355.52,-202.23 359.52,-202.23 359.52,-198.23 470.48,-198.23 470.48,-239.43"/>
+<polyline fill="none" stroke="#e41a1c" points="359.52,-235.43 363.52,-235.43 363.52,-231.43 359.52,-231.43"/>
+<polyline fill="none" stroke="#e41a1c" points="359.52,-206.23 363.52,-206.23 363.52,-202.23 359.52,-202.23"/>
+<text text-anchor="middle" x="415" y="-223.03" font-family="Times,serif" font-size="14.00">Local File</text>
+<text text-anchor="middle" x="415" y="-206.23" font-family="Times,serif" font-size="14.00">System Manager</text>
+</g>
+<!-- bibleDatabases -->
+<g id="node11" class="node" pointer-events="visible" data-name="bibleDatabases">
+
+<path fill="none" stroke="#377eb8" d="M578.25,-143.3C578.25,-146.18 562,-148.52 542,-148.52 522,-148.52 505.75,-146.18 505.75,-143.3 505.75,-143.3 505.75,-96.33 505.75,-96.33 505.75,-93.45 522,-91.12 542,-91.12 562,-91.12 578.25,-93.45 578.25,-96.33 578.25,-96.33 578.25,-143.3 578.25,-143.3"/>
+<path fill="none" stroke="#377eb8" d="M578.25,-143.3C578.25,-140.42 562,-138.08 542,-138.08 522,-138.08 505.75,-140.42 505.75,-143.3"/>
+<text text-anchor="middle" x="542" y="-124.02" font-family="Times,serif" font-size="14.00">Bible</text>
+<text text-anchor="middle" x="542" y="-107.22" font-family="Times,serif" font-size="14.00">Databases</text>
+</g>
+<!-- localFsManager&#45;&gt;bibleDatabases -->
+<g id="edge9" class="edge" data-name="localFsManager-&gt;bibleDatabases">
+
+<path fill="none" stroke="#377eb8" d="M461.35,-197.74C479.68,-189.77 496.56,-182.38 497,-182.03 507.33,-173.77 516.48,-162.59 523.78,-152.04"/>
+<polygon fill="#377eb8" stroke="#377eb8" points="526.56,-154.18 529.12,-143.9 520.71,-150.34 526.56,-154.18"/>
+</g>
+<!-- commentaryCorpus -->
+<g id="node14" class="node" pointer-events="visible" data-name="commentaryCorpus">
+
+<path fill="none" stroke="#377eb8" d="M487.54,-143.3C487.54,-146.18 457.72,-148.52 421,-148.52 384.28,-148.52 354.46,-146.18 354.46,-143.3 354.46,-143.3 354.46,-96.33 354.46,-96.33 354.46,-93.45 384.28,-91.12 421,-91.12 457.72,-91.12 487.54,-93.45 487.54,-96.33 487.54,-96.33 487.54,-143.3 487.54,-143.3"/>
+<path fill="none" stroke="#377eb8" d="M487.54,-143.3C487.54,-140.42 457.72,-138.08 421,-138.08 384.28,-138.08 354.46,-140.42 354.46,-143.3"/>
+<text text-anchor="middle" x="421" y="-124.02" font-family="Times,serif" font-size="14.00">Commentary Corpus</text>
+<text text-anchor="middle" x="421" y="-107.22" font-family="Times,serif" font-size="14.00">(Multilingual)</text>
+</g><g id="edge5" class="edge" data-name="packager-&gt;outputText" data-comment="commentaryCorpus">
+
+<path fill="none" stroke="#4daf4a" d="M307.11,-200.49C306.37,-186.28 305.32,-165.88 304.47,-149.28"/>
+<polygon fill="#4daf4a" stroke="#4daf4a" points="307.97,-149.33 303.96,-139.52 300.98,-149.69 307.97,-149.33"/>
+</g>
+<!-- localFsManager&#45;&gt;commentaryCorpus -->
+<g id="edge11" class="edge" data-name="localFsManager-&gt;commentaryCorpus">
+
+<path fill="none" stroke="#377eb8" d="M416.21,-198.2C417,-185.53 418.04,-168.73 418.95,-154.02"/>
+<polygon fill="#377eb8" stroke="#377eb8" points="422.42,-154.5 419.55,-144.3 415.44,-154.06 422.42,-154.5"/>
+</g>
+<!-- apiManager -->
+<g id="node12" class="node" pointer-events="visible" data-name="apiManager">
+
+<polygon fill="none" stroke="#e41a1c" points="579.81,-236.83 488.19,-236.83 488.19,-232.83 484.19,-232.83 484.19,-228.83 488.19,-228.83 488.19,-208.83 484.19,-208.83 484.19,-204.83 488.19,-204.83 488.19,-200.83 579.81,-200.83 579.81,-236.83"/>
+<polyline fill="none" stroke="#e41a1c" points="488.19,-232.83 492.19,-232.83 492.19,-228.83 488.19,-228.83"/>
+<polyline fill="none" stroke="#e41a1c" points="488.19,-208.83 492.19,-208.83 492.19,-204.83 488.19,-204.83"/>
+<text text-anchor="middle" x="534" y="-214.63" font-family="Times,serif" font-size="14.00">API Manager</text>
+</g><g id="edge6" class="edge" data-name="packager-&gt;outputImage" data-comment="apiManager">
+
+<path fill="none" stroke="#4daf4a" d="M285.54,-200.41C279.16,-194.9 272.47,-188.55 267,-182.03 258.35,-171.72 250.39,-159.17 244.09,-148.13"/>
+<polygon fill="#4daf4a" stroke="#4daf4a" points="247.2,-146.52 239.32,-139.44 241.07,-149.89 247.2,-146.52"/>
+</g>
+<!-- bibleAPIs -->
+<g id="node13" class="node" pointer-events="visible" data-name="bibleAPIs">
+
+<ellipse fill="none" stroke="#377eb8" cx="750" cy="-119.82" rx="32.52" ry="29.33"/>
+
+<text text-anchor="middle" x="750" y="-124.02" font-family="Times,serif" font-size="14.00">Bible</text>
+<text text-anchor="middle" x="750" y="-107.22" font-family="Times,serif" font-size="14.00">APIs</text></g>
+<!-- apiManager&#45;&gt;bibleAPIs -->
+<g id="edge10" class="edge" data-name="apiManager-&gt;bibleAPIs">
+
+<path fill="none" stroke="#377eb8" d="M580.1,-217.6C617.41,-215.36 669.85,-207.37 708,-182.03 717.48,-175.73 725.42,-166.5 731.75,-157.1"/>
+<polygon fill="#377eb8" stroke="#377eb8" points="734.7,-158.99 736.97,-148.64 728.74,-155.31 734.7,-158.99"/>
+</g><g id="edge7" class="edge" data-name="packager-&gt;outputHTML" data-comment="apiManager-&gt;bibleAPIs">
+
+<path fill="none" stroke="#4daf4a" d="M273.83,-212.04C249.85,-206.86 217.78,-197.62 193,-182.03 178.5,-172.91 165.27,-159.2 155.2,-147.07"/>
+<polygon fill="#4daf4a" stroke="#4daf4a" points="158.06,-145.04 149.1,-139.38 152.58,-149.39 158.06,-145.04"/>
+</g>
+<!-- textToSpeechService -->
+<g id="node15" class="node" pointer-events="visible" data-name="textToSpeechService">
+
+<polygon fill="none" stroke="#377eb8" points="699.3,-140.42 600.7,-140.42 596.7,-136.42 596.7,-99.21 695.3,-99.21 699.3,-103.21 699.3,-140.42"/>
+<polyline fill="none" stroke="#377eb8" points="695.3,-136.42 596.7,-136.42"/>
+<polyline fill="none" stroke="#377eb8" points="695.3,-136.42 695.3,-99.21"/>
+<polyline fill="none" stroke="#377eb8" points="695.3,-136.42 699.3,-140.42"/>
+<text text-anchor="middle" x="648" y="-124.02" font-family="Times,serif" font-size="14.00">Text-to-Speech</text>
+<text text-anchor="middle" x="648" y="-107.22" font-family="Times,serif" font-size="14.00">Service</text>
+</g>
+<!-- apiManager&#45;&gt;textToSpeechService -->
+<g id="edge12" class="edge" data-name="apiManager-&gt;textToSpeechService">
+
+<path fill="none" stroke="#377eb8" d="M561.96,-200.41C570.26,-194.85 579.21,-188.47 587,-182.03 599.14,-172 611.57,-159.91 622.03,-149.13"/>
+<polygon fill="#377eb8" stroke="#377eb8" points="624.53,-151.58 628.89,-141.92 619.46,-146.75 624.53,-151.58"/>
+</g><g id="edge8" class="edge" data-name="packager-&gt;outputPDF" data-comment="apiManager-&gt;textToSpeechService">
+
+<path fill="none" stroke="#4daf4a" d="M273.84,-216.04C217.96,-212.54 110.11,-203.19 79,-182.03 67.17,-173.99 58.67,-160.66 52.91,-148.5"/>
+<polygon fill="#4daf4a" stroke="#4daf4a" points="56.28,-147.47 49.13,-139.65 49.84,-150.22 56.28,-147.47"/>
+</g>
+<!-- requestHandler -->
+<g id="node4" class="node" pointer-events="visible" data-name="requestHandler">
+
+<polygon fill="none" stroke="#e41a1c" points="426.69,-383.63 317.31,-383.63 317.31,-379.63 313.31,-379.63 313.31,-375.63 317.31,-375.63 317.31,-355.63 313.31,-355.63 313.31,-351.63 317.31,-351.63 317.31,-347.63 426.69,-347.63 426.69,-383.63"/>
+<polyline fill="none" stroke="#e41a1c" points="317.31,-379.63 321.31,-379.63 321.31,-375.63 317.31,-375.63"/>
+<polyline fill="none" stroke="#e41a1c" points="317.31,-355.63 321.31,-355.63 321.31,-351.63 317.31,-351.63"/>
+<text text-anchor="middle" x="372" y="-361.43" font-family="Times,serif" font-size="14.00">Request Handler</text>
+</g>
+<!-- requestHandler&#45;&gt;localFsManager -->
+
+<!-- requestHandler&#45;&gt;apiManager -->
+
+<!-- queryHandler -->
+<g id="node16" class="node" pointer-events="visible" data-name="queryHandler">
+
+<polygon fill="none" stroke="#e41a1c" points="464.58,-311.63 365.42,-311.63 365.42,-307.63 361.42,-307.63 361.42,-303.63 365.42,-303.63 365.42,-283.63 361.42,-283.63 361.42,-279.63 365.42,-279.63 365.42,-275.63 464.58,-275.63 464.58,-311.63"/>
+<polyline fill="none" stroke="#e41a1c" points="365.42,-307.63 369.42,-307.63 369.42,-303.63 365.42,-303.63"/>
+<polyline fill="none" stroke="#e41a1c" points="365.42,-283.63 369.42,-283.63 369.42,-279.63 365.42,-279.63"/>
+<text text-anchor="middle" x="415" y="-289.43" font-family="Times,serif" font-size="14.00">Query Handler</text>
+</g>
+<!-- requestHandler&#45;&gt;queryHandler -->
+<g id="edge13" class="edge" data-name="requestHandler-&gt;queryHandler">
+
+<path fill="none" stroke="#e41a1c" d="M382.63,-347.33C387.42,-339.53 393.19,-330.14 398.52,-321.46"/>
+<polygon fill="#e41a1c" stroke="#e41a1c" points="401.45,-323.38 403.7,-313.03 395.48,-319.71 401.45,-323.38"/>
+</g><!-- queryHandler&#45;&gt;localFsManager -->
+
+<!-- queryHandler&#45;&gt;localFsManager -->
+<g id="edge15" class="edge" data-name="queryHandler-&gt;localFsManager">
+
+<path fill="none" stroke="#e41a1c" d="M415,-275.38C415,-268.12 415,-259.44 415,-251.12"/>
+<polygon fill="#e41a1c" stroke="#e41a1c" points="418.5,-251.31 415,-241.31 411.5,-251.31 418.5,-251.31"/>
+</g>
+<!-- queryHandler&#45;&gt;formatter -->
+<!-- queryHandler&#45;&gt;formatter -->
+
+<!-- queryHandler&#45;&gt;apiManager -->
+
+<g id="edge14" class="edge" data-name="queryHandler-&gt;apiManager">
+
+<path fill="none" stroke="#e41a1c" d="M443.5,-275.19C459.25,-265.56 479.02,-253.46 496.06,-243.04"/>
+<polygon fill="#e41a1c" stroke="#e41a1c" points="497.73,-246.12 504.44,-237.92 494.08,-240.15 497.73,-246.12"/>
+</g>
+<!-- user -->
+<g id="node1" class="node" pointer-events="visible" data-name="user">
+
+<polygon fill="none" stroke="#e41a1c" points="427.6,-584.52 385.12,-584.52 372,-624.75 358.88,-584.52 316.4,-584.52 350.76,-559.66 337.64,-519.43 372,-544.3 406.36,-519.43 393.24,-559.66 427.6,-584.52"/>
+<text text-anchor="middle" x="372" y="-567.89" font-family="Times,serif" font-size="14.00">User</text>
+</g>
+<!-- browserFrontend -->
+<g id="node2" class="node" pointer-events="visible" data-name="browserFrontend">
+
+<ellipse fill="none" stroke="#984ea3" cx="300" cy="-453.85" rx="52.02" ry="29.33"/>
+<text text-anchor="middle" x="300" y="-458.05" font-family="Times,serif" font-size="14.00">Browser</text>
+<text text-anchor="middle" x="300" y="-441.25" font-family="Times,serif" font-size="14.00">Front-End</text>
+</g>
+<!-- cmdLineInterface -->
+<g id="node3" class="node" pointer-events="visible" data-name="cmdLineInterface">
+
+<ellipse fill="none" stroke="#984ea3" cx="444" cy="-453.85" rx="74" ry="29.33"/>
+<text text-anchor="middle" x="444" y="-458.05" font-family="Times,serif" font-size="14.00">Command-Line</text>
+<text text-anchor="middle" x="444" y="-441.25" font-family="Times,serif" font-size="14.00">Interface</text>
+</g>
+
+</g>
+</svg>
