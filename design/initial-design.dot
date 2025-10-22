@@ -1,0 +1,105 @@
+digraph {
+    label = "\nMANIPULUS ATTESTATIO\nBasic System Layout\nv1.0";
+    node [shape = box;];
+    
+    // editor -> finalDocuments;
+    
+    // subgraph cluster_00 {
+    // label = "EDITORIS\nMELICORUM";
+    // docTitleData -> editor;
+    // docMusicData -> editor;
+    // docStructureData -> editor;
+    // scriptor -> scholasticusTranslators [dir=both, arrowhead=none, arrowtail=odiamond]; 
+    // lector -> scholasticusTranslators [dir=both, arrowhead=none, arrowtail=odiamond];
+    
+    // subgraph cluster_10 {
+    //     label = "LECTOR\nReader";
+    //     lector -> lectorParsers [dir=both, arrowhead=none, arrowtail=diamond]; 
+    //     lector -> lectorCopiers [dir=both, arrowhead=none, arrowtail=diamond]; 
+    // }
+    // subgraph cluster_11 {
+    //     label = "SCRIPTOR\nWriter";
+    //     scriptor -> scriptorWriters [dir=both, arrowhead=none, arrowtail=diamond]; 
+    //     scriptor -> scriptorReaders [dir=both, arrowhead=none, arrowtail=diamond]; 
+    // }
+    // subgraph cluster_12 {
+    //     label = "SCHOLASTICUS\nScholar";
+    //     scholasticus -> scholasticusTranslators [dir=both, arrowhead=none, arrowtail=diamond]; 
+    // }
+    
+    // subgraph cluster_20 {
+    //     label = "Input data\n(.gabc and .ly files)";
+    //     gabcSource -> lectorParsers;
+    //     lySource -> lectorParsers;
+    // }
+    
+    // // gabcParser -> lyTranslation [color = red;];
+    
+    // subgraph cluster_30 {
+    //         label = "Formatted input data\n(.ly files)";
+    //         lectorCopiers -> formattedMusicData;
+    //         lectorCopiers -> formattedStructureData;
+    //         formattedMusicData -> scriptorReaders;
+    //         formattedStructureData -> scriptorReaders;
+    //     }
+    //     subgraph cluster_31 {
+    //         label = "Lilypond document parts\n(.ly files)";
+    //         scriptorWriters -> docTitleData;
+    //         scriptorWriters -> docMusicData;
+    //         scriptorWriters -> docStructureData;
+    //     }
+    // }
+    
+    // // lyFormatter -> outputHtml [color = blue;];
+    // // lyFormatter -> outputMarkdown [color = blue;];
+    // // lyFormatter -> outputPdf [color = blue;];
+    // // lyFormatter -> outputSvg [color = blue;];
+    // // lyFormatter -> outputPng [color = blue;];
+    
+    subgraph cluster_01 {
+        label = "MATTE System";
+        matteServer -> matteFormatter [colorscheme=set19;color = 1;];
+        matteServer -> matteResources [colorscheme=set19;color = 1;];
+    }
+    
+    user -> browserFrontend [colorscheme=set19;color = 1;];
+    user -> cmdLineInterface [colorscheme=set19;color = 1;];
+    
+    browserFrontend -> matteServer [colorscheme=set19;color = 4;];
+    cmdLineInterface -> matteServer [colorscheme=set19;color = 4;];
+    
+    subgraph cluster_02 {
+        label = "Outputs";
+        matteFormatter -> outputText [colorscheme=set19;color = 3;];
+        matteFormatter -> outputImage [colorscheme=set19;color = 3;];
+        matteFormatter -> outputHTML [colorscheme=set19;color = 3;];
+        matteFormatter -> outputPDF [colorscheme=set19;color = 3;];
+    }
+    
+    subgraph cluster_03 {
+        label = "External Resources";
+        matteResources -> bibleDatabases [colorscheme=set19;color = 2;];
+        matteResources -> bibleAPIs [colorscheme=set19;color = 2;];
+        matteResources -> commentaryCorpus [colorscheme=set19;color = 2;];
+        matteResources -> textToSpeechService [colorscheme=set19;color = 2;];
+    }
+    
+    
+    user [label = "User";shape = star;colorscheme = set19;color = 1;];
+    matteServer [label = "MATTE\nServer";shape = cylinder;colorscheme = set19;color = 1;];
+    matteFormatter [label = "MATTE\nFormatter";shape = component;colorscheme = set19;color = 1;];
+    matteResources [label = "MATTE\nResources";shape = component;colorscheme = set19;color = 1;];
+    
+    browserFrontend [label = "Browser\nFront-End";shape = oval;colorscheme = set19;color = 4;];
+    cmdLineInterface [label = "Command-Line\nInterface";shape = oval;colorscheme = set19;color = 4;];
+    
+    bibleDatabases [label = "Bible\nDatabases";shape = cylinder;colorscheme = set19;color = 2;];
+    bibleAPIs [label = "Bible\nAPIs";shape = cylinder;colorscheme = set19;color = 2;];
+    commentaryCorpus [label = "Commentary Corpus\n(Multilingual)";shape = cylinder;colorscheme = set19;color = 2;];
+    textToSpeechService [label = "Text-to-Speech\nService";shape = box3d;colorscheme = set19;color = 2;];
+    
+    outputText [label = "Text";shape = note;colorscheme = set19;color = 3;];
+    outputImage [label = "Images";shape = note;colorscheme = set19;color = 3;];
+    outputHTML [label = "HTML/EPUB";shape = note;colorscheme = set19;color = 3;];
+    outputPDF [label = "PDF";shape = note;colorscheme = set19;color = 3;];
+}

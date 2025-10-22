@@ -1,0 +1,220 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="794pt" height="580pt" viewBox="0.00 0.00 794 580.49">
+<g id="graph0" class="graph" transform="translate(4,576.489990234375) scale(1)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-576.49 790,-576.49 790,4 -4,4"/>
+<text text-anchor="middle" x="393" y="-41.8" font-family="Times,serif" font-size="14.00">MANIPULUS ATTESTATIO</text>
+<text text-anchor="middle" x="393" y="-25" font-family="Times,serif" font-size="14.00">Basic System Layout</text>
+<text text-anchor="middle" x="393" y="-8.2" font-family="Times,serif" font-size="14.00">v1.0</text>
+<!-- matteServer --><g id="clust1" class="cluster" data-name="cluster_01" data-comment="matteServer">
+
+<polygon fill="none" stroke="black" points="265,-188.4 265,-364 444,-364 444,-188.4 265,-188.4"/>
+<text text-anchor="middle" x="354.5" y="-347.4" font-family="Times,serif" font-size="14.00">MATTE System</text>
+</g><g id="clust2" class="cluster" data-name="cluster_02" data-comment="matteServer">
+
+<polygon fill="none" stroke="black" points="8,-93 8,-169.8 338,-169.8 338,-93 8,-93"/>
+<text text-anchor="middle" x="173" y="-153.2" font-family="Times,serif" font-size="14.00">Outputs</text>
+</g>
+<g id="node1" class="node" pointer-events="visible" data-name="matteServer">
+
+<path fill="none" stroke="rgb(228, 26, 28)" d="M386.21,-326.08C386.21,-328.96 371.78,-331.3 354,-331.3 336.22,-331.3 321.79,-328.96 321.79,-326.08 321.79,-326.08 321.79,-279.12 321.79,-279.12 321.79,-276.24 336.22,-273.9 354,-273.9 371.78,-273.9 386.21,-276.24 386.21,-279.12 386.21,-279.12 386.21,-326.08 386.21,-326.08"/>
+<path fill="none" stroke="rgb(228, 26, 28)" d="M386.21,-326.08C386.21,-323.2 371.78,-320.86 354,-320.86 336.22,-320.86 321.79,-323.2 321.79,-326.08"/>
+<text text-anchor="middle" x="354" y="-306.8" font-family="Times,serif" font-size="14.00">MATTE</text>
+<text text-anchor="middle" x="354" y="-290" font-family="Times,serif" font-size="14.00">Server</text>
+</g>
+<!-- bibleDatabases --><g id="clust3" class="cluster" data-name="cluster_03" data-comment="bibleDatabases">
+
+<polygon fill="none" stroke="black" points="346,-82.4 346,-180.4 778,-180.4 778,-82.4 346,-82.4"/>
+<text text-anchor="middle" x="562" y="-163.8" font-family="Times,serif" font-size="14.00">External Resources</text>
+</g>
+<g id="node11" class="node" pointer-events="visible" data-name="bibleDatabases">
+
+<path fill="none" stroke="rgb(55, 126, 184)" d="M770.25,-142.48C770.25,-145.36 754,-147.7 734,-147.7 714,-147.7 697.75,-145.36 697.75,-142.48 697.75,-142.48 697.75,-95.52 697.75,-95.52 697.75,-92.64 714,-90.3 734,-90.3 754,-90.3 770.25,-92.64 770.25,-95.52 770.25,-95.52 770.25,-142.48 770.25,-142.48"/>
+<path fill="none" stroke="rgb(55, 126, 184)" d="M770.25,-142.48C770.25,-139.6 754,-137.26 734,-137.26 714,-137.26 697.75,-139.6 697.75,-142.48"/>
+<text text-anchor="middle" x="734" y="-123.2" font-family="Times,serif" font-size="14.00">Bible</text>
+<text text-anchor="middle" x="734" y="-106.4" font-family="Times,serif" font-size="14.00">Databases</text>
+</g>
+<!-- bibleAPIs -->
+<g id="node12" class="node" pointer-events="visible" data-name="bibleAPIs">
+
+<path fill="none" stroke="rgb(55, 126, 184)" d="M680,-142.48C680,-145.36 667.9,-147.7 653,-147.7 638.1,-147.7 626,-145.36 626,-142.48 626,-142.48 626,-95.52 626,-95.52 626,-92.64 638.1,-90.3 653,-90.3 667.9,-90.3 680,-92.64 680,-95.52 680,-95.52 680,-142.48 680,-142.48"/>
+<path fill="none" stroke="rgb(55, 126, 184)" d="M680,-142.48C680,-139.6 667.9,-137.26 653,-137.26 638.1,-137.26 626,-139.6 626,-142.48"/>
+<text text-anchor="middle" x="653" y="-123.2" font-family="Times,serif" font-size="14.00">Bible</text>
+<text text-anchor="middle" x="653" y="-106.4" font-family="Times,serif" font-size="14.00">APIs</text>
+</g><g id="edge3" class="edge" data-name="user-&gt;browserFrontend" data-comment="bibleAPIs">
+
+<path fill="none" stroke="rgb(228, 26, 28)" d="M323.05,-468.69C316.95,-458.84 310.65,-448.67 304.87,-439.34"/>
+<polygon fill="#e41a1c" stroke="#e41a1c" points="307.88,-437.55 299.64,-430.89 301.93,-441.24 307.88,-437.55"/>
+</g>
+<!-- commentaryCorpus --><g id="edge1" class="edge" data-name="matteServer-&gt;matteFormatter" data-comment="commentaryCorpus">
+
+<path fill="none" stroke="rgb(228, 26, 28)" d="M339.02,-273.83C334.59,-265.63 329.73,-256.63 325.24,-248.29"/>
+<polygon fill="#e41a1c" stroke="#e41a1c" points="328.34,-246.68 320.51,-239.54 322.18,-250 328.34,-246.68"/>
+</g>
+<!-- commentaryCorpus -->
+<g id="node13" class="node" pointer-events="visible" data-name="commentaryCorpus">
+
+<path fill="none" stroke="rgb(55, 126, 184)" d="M607.54,-142.48C607.54,-145.36 577.72,-147.7 541,-147.7 504.28,-147.7 474.46,-145.36 474.46,-142.48 474.46,-142.48 474.46,-95.52 474.46,-95.52 474.46,-92.64 504.28,-90.3 541,-90.3 577.72,-90.3 607.54,-92.64 607.54,-95.52 607.54,-95.52 607.54,-142.48 607.54,-142.48"/>
+<path fill="none" stroke="rgb(55, 126, 184)" d="M607.54,-142.48C607.54,-139.6 577.72,-137.26 541,-137.26 504.28,-137.26 474.46,-139.6 474.46,-142.48"/>
+<text text-anchor="middle" x="541" y="-123.2" font-family="Times,serif" font-size="14.00">Commentary Corpus</text>
+<text text-anchor="middle" x="541" y="-106.4" font-family="Times,serif" font-size="14.00">(Multilingual)</text>
+</g>
+<!-- textToSpeechService -->
+
+<g id="node14" class="node" pointer-events="visible" data-name="textToSpeechService">
+
+<polygon fill="none" stroke="#377eb8" points="456.3,-139.6 357.7,-139.6 353.7,-135.6 353.7,-98.4 452.3,-98.4 456.3,-102.4 456.3,-139.6"/>
+<polyline fill="none" stroke="rgb(55, 126, 184)" points="452.3,-135.6 353.7,-135.6"/>
+<polyline fill="none" stroke="rgb(55, 126, 184)" points="452.3,-135.6 452.3,-98.4"/>
+<polyline fill="none" stroke="rgb(55, 126, 184)" points="452.3,-135.6 456.3,-139.6"/>
+<text text-anchor="middle" x="405" y="-123.2" font-family="Times,serif" font-size="14.00">Text-to-Speech</text>
+<text text-anchor="middle" x="405" y="-106.4" font-family="Times,serif" font-size="14.00">Service</text>
+</g><g id="edge4" class="edge" data-name="user-&gt;cmdLineInterface" data-comment="textToSpeechService">
+
+<path fill="none" stroke="rgb(228, 26, 28)" d="M384.95,-468.69C390.94,-459.02 397.12,-449.04 402.81,-439.85"/>
+<polygon fill="#e41a1c" stroke="#e41a1c" points="405.67,-441.88 407.96,-431.54 399.72,-438.19 405.67,-441.88"/>
+</g>
+<!-- outputText --><g id="edge2" class="edge" data-name="matteServer-&gt;matteResources" data-comment="outputText">
+
+<path fill="none" stroke="rgb(228, 26, 28)" d="M368.98,-273.83C373.41,-265.63 378.27,-256.63 382.76,-248.29"/>
+<polygon fill="#e41a1c" stroke="#e41a1c" points="385.82,-250 387.49,-239.54 379.66,-246.68 385.82,-250"/>
+</g>
+<g id="node7" class="node" pointer-events="visible" data-name="outputText">
+
+<polygon fill="none" stroke="#4daf4a" points="324,-137 276,-137 276,-101 330,-101 330,-131 324,-137"/>
+<polyline fill="none" stroke="rgb(77, 175, 74)" points="324,-137 324,-131"/>
+<polyline fill="none" stroke="rgb(77, 175, 74)" points="330,-131 324,-131"/>
+<text text-anchor="middle" x="303" y="-114.8" font-family="Times,serif" font-size="14.00">Text</text>
+</g>
+<!-- outputImage -->
+<g id="node8" class="node" pointer-events="visible" data-name="outputImage">
+
+<polygon fill="none" stroke="#4daf4a" points="252.43,-137 201.57,-137 201.57,-101 258.43,-101 258.43,-131 252.43,-137"/>
+<polyline fill="none" stroke="rgb(77, 175, 74)" points="252.43,-137 252.43,-131"/>
+<polyline fill="none" stroke="rgb(77, 175, 74)" points="258.43,-131 252.43,-131"/>
+<text text-anchor="middle" x="230" y="-114.8" font-family="Times,serif" font-size="14.00">Images</text>
+</g>
+<!-- browserFrontend&#45;&gt;matteServer -->
+<g id="edge5" class="edge" data-name="browserFrontend-&gt;matteServer">
+
+<path fill="none" stroke="rgb(152, 78, 163)" d="M301.67,-373.96C310.79,-361.71 321.67,-347.07 331.15,-334.33"/>
+<polygon fill="#984ea3" stroke="#984ea3" points="333.69,-336.78 336.85,-326.66 328.07,-332.6 333.69,-336.78"/>
+</g>
+<!-- outputHTML -->
+<g id="node9" class="node" pointer-events="visible" data-name="outputHTML">
+
+<polygon fill="none" stroke="#4daf4a" points="177.84,-137 88.16,-137 88.16,-101 183.84,-101 183.84,-131 177.84,-137"/>
+<polyline fill="none" stroke="rgb(77, 175, 74)" points="177.84,-137 177.84,-131"/>
+<polyline fill="none" stroke="rgb(77, 175, 74)" points="183.84,-131 177.84,-131"/>
+<text text-anchor="middle" x="136" y="-114.8" font-family="Times,serif" font-size="14.00">HTML/EPUB</text>
+</g>
+<!-- cmdLineInterface&#45;&gt;matteServer -->
+<g id="edge6" class="edge" data-name="cmdLineInterface-&gt;matteServer">
+
+<path fill="none" stroke="rgb(152, 78, 163)" d="M405.56,-372.93C396.62,-360.9 386.08,-346.74 376.88,-334.36"/>
+<polygon fill="#984ea3" stroke="#984ea3" points="379.82,-332.46 371.05,-326.52 374.21,-336.64 379.82,-332.46"/>
+</g>
+<!-- outputPDF -->
+<!-- outputPDF -->
+<!-- outputPDF -->
+<!-- outputPDF -->
+<!-- outputPDF -->
+<!-- outputPDF -->
+<!-- outputPDF -->
+<!-- outputPDF -->
+<!-- outputPDF -->
+<!-- outputPDF -->
+<!-- outputPDF -->
+<!-- outputPDF -->
+<!-- outputPDF -->
+<g id="node10" class="node" pointer-events="visible" data-name="outputPDF">
+
+<polygon fill="none" stroke="#4daf4a" points="64,-137 16,-137 16,-101 70,-101 70,-131 64,-137"/>
+<polyline fill="none" stroke="rgb(77, 175, 74)" points="64,-137 64,-131"/>
+<polyline fill="none" stroke="rgb(77, 175, 74)" points="70,-131 64,-131"/>
+<text text-anchor="middle" x="43" y="-114.8" font-family="Times,serif" font-size="14.00">PDF</text>
+</g>
+<!-- user -->
+<g id="node4" class="node" pointer-events="visible" data-name="user">
+
+<polygon fill="none" stroke="#e41a1c" points="409.6,-532.09 367.12,-532.09 354,-572.32 340.88,-532.09 298.4,-532.09 332.76,-507.23 319.64,-467 354,-491.86 388.36,-467 375.24,-507.23 409.6,-532.09"/>
+<text text-anchor="middle" x="354" y="-515.46" font-family="Times,serif" font-size="14.00">User</text>
+</g>
+<!-- browserFrontend -->
+<g id="node5" class="node" pointer-events="visible" data-name="browserFrontend">
+
+<ellipse fill="none" stroke="#984ea3" cx="282" cy="-401.42" rx="52.02" ry="29.33"/>
+<text text-anchor="middle" x="282" y="-405.62" font-family="Times,serif" font-size="14.00">Browser</text>
+<text text-anchor="middle" x="282" y="-388.82" font-family="Times,serif" font-size="14.00">Front-End</text>
+</g><g id="edge11" class="edge" data-name="matteResources-&gt;bibleDatabases" data-comment="browserFrontend">
+
+<path fill="none" stroke="rgb(55, 126, 184)" d="M435.89,-215.21C504.08,-212.82 646.79,-204.94 689,-180.4 698.65,-174.79 706.87,-166.21 713.53,-157.26"/>
+<polygon fill="#377eb8" stroke="#377eb8" points="716.32,-159.39 719.06,-149.16 710.53,-155.44 716.32,-159.39"/>
+</g>
+<!-- cmdLineInterface -->
+<g id="node6" class="node" pointer-events="visible" data-name="cmdLineInterface">
+
+<ellipse fill="none" stroke="#984ea3" cx="426" cy="-401.42" rx="74" ry="29.33"/>
+<text text-anchor="middle" x="426" y="-405.62" font-family="Times,serif" font-size="14.00">Command-Line</text>
+<text text-anchor="middle" x="426" y="-388.82" font-family="Times,serif" font-size="14.00">Interface</text>
+</g><g id="edge7" class="edge" data-name="matteFormatter-&gt;outputText" data-comment="cmdLineInterface">
+
+<path fill="none" stroke="rgb(77, 175, 74)" d="M307.76,-196.27C306.9,-182.54 305.75,-164.1 304.8,-148.79"/>
+<polygon fill="#4daf4a" stroke="#4daf4a" points="308.29,-148.6 304.17,-138.84 301.3,-149.04 308.29,-148.6"/>
+</g>
+<g id="edge12" class="edge" data-name="matteResources-&gt;bibleAPIs" data-comment="cmdLineInterface">
+
+<path fill="none" stroke="rgb(55, 126, 184)" d="M435.88,-213.88C490.14,-209.86 588.16,-200.05 617,-180.4 625.27,-174.77 631.93,-166.55 637.17,-157.99"/>
+<polygon fill="#377eb8" stroke="#377eb8" points="640.23,-159.69 641.95,-149.23 634.08,-156.33 640.23,-159.69"/>
+</g>
+
+
+<!-- matteResources&#45;&gt;commentaryCorpus -->
+<g id="edge13" class="edge" data-name="matteResources-&gt;commentaryCorpus">
+
+<path fill="none" stroke="rgb(55, 126, 184)" d="M435.98,-197.61C445.62,-192.37 455.87,-186.44 465,-180.4 476.53,-172.77 488.48,-163.83 499.39,-155.2"/>
+<polygon fill="#377eb8" stroke="#377eb8" points="501.49,-158 507.09,-149.01 497.11,-152.55 501.49,-158"/>
+</g>
+<g id="edge8" class="edge" data-name="matteFormatter-&gt;outputImage" data-comment="matteResources-&gt;commentaryCorpus">
+
+<path fill="none" stroke="rgb(77, 175, 74)" d="M282.92,-196.2C277.36,-191.34 271.73,-185.94 267,-180.4 258.4,-170.34 250.49,-158.07 244.22,-147.22"/>
+<polygon fill="#4daf4a" stroke="#4daf4a" points="247.39,-145.72 239.46,-138.69 241.28,-149.13 247.39,-145.72"/>
+</g>
+<g id="node2" class="node" pointer-events="visible" data-name="matteFormatter" data-comment="matteResources-&gt;commentaryCorpus">
+
+<polygon fill="none" stroke="#e41a1c" points="344.71,-237.8 273.29,-237.8 273.29,-233.8 269.29,-233.8 269.29,-229.8 273.29,-229.8 273.29,-204.6 269.29,-204.6 269.29,-200.6 273.29,-200.6 273.29,-196.6 344.71,-196.6 344.71,-237.8"/>
+<polyline fill="none" stroke="#e41a1c" points="273.29,-233.8 277.29,-233.8 277.29,-229.8 273.29,-229.8"/>
+<text text-anchor="middle" x="309" y="-221.4" font-family="Times,serif" font-size="14.00">MATTE</text><polyline fill="none" stroke="#e41a1c" points="273.29,-204.6 277.29,-204.6 277.29,-200.6 273.29,-200.6"/>
+
+<text text-anchor="middle" x="309" y="-204.6" font-family="Times,serif" font-size="14.00">Formatter</text>
+</g><g id="edge14" class="edge" data-name="matteResources-&gt;textToSpeechService" data-comment="matteResources-&gt;commentaryCorpus">
+
+<path fill="none" stroke="rgb(55, 126, 184)" d="M400.24,-196.27C401.06,-183.24 402.13,-165.96 403.06,-151.14"/>
+<polygon fill="#377eb8" stroke="#377eb8" points="406.53,-151.62 403.66,-141.42 399.55,-151.18 406.53,-151.62"/>
+</g>
+<g id="node3" class="node" pointer-events="visible" data-name="matteResources" data-comment="matteResources-&gt;commentaryCorpus">
+
+<polygon fill="none" stroke="#e41a1c" points="435.54,-237.8 362.46,-237.8 362.46,-233.8 358.46,-233.8 358.46,-229.8 362.46,-229.8 362.46,-204.6 358.46,-204.6 358.46,-200.6 362.46,-200.6 362.46,-196.6 435.54,-196.6 435.54,-237.8"/>
+<polyline fill="none" stroke="#e41a1c" points="362.46,-233.8 366.46,-233.8 366.46,-229.8 362.46,-229.8"/>
+<polyline fill="none" stroke="#e41a1c" points="362.46,-204.6 366.46,-204.6 366.46,-200.6 362.46,-200.6"/>
+<text text-anchor="middle" x="399" y="-221.4" font-family="Times,serif" font-size="14.00">MATTE</text>
+<text text-anchor="middle" x="399" y="-204.6" font-family="Times,serif" font-size="14.00">Resources</text>
+</g><g id="edge9" class="edge" data-name="matteFormatter-&gt;outputHTML" data-comment="matteResources-&gt;commentaryCorpus">
+
+<path fill="none" stroke="rgb(77, 175, 74)" d="M273,-210.08C249.01,-204.84 217.51,-195.66 193,-180.4 178.66,-171.47 165.51,-158.07 155.46,-146.16"/>
+<polygon fill="#4daf4a" stroke="#4daf4a" points="158.37,-144.19 149.37,-138.61 152.93,-148.59 158.37,-144.19"/>
+</g>
+
+<g id="edge10" class="edge" data-name="matteFormatter-&gt;outputPDF" data-comment="matteResources-&gt;commentaryCorpus">
+
+<path fill="none" stroke="rgb(77, 175, 74)" d="M272.89,-214.29C216.3,-210.7 109.98,-201.32 79,-180.4 67.38,-172.56 58.94,-159.59 53.17,-147.68"/>
+<polygon fill="#4daf4a" stroke="#4daf4a" points="56.41,-146.37 49.2,-138.61 50,-149.17 56.41,-146.37"/>
+</g>
+
+
+
+
+
+
+
+</g>
+</svg>
