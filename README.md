@@ -25,7 +25,11 @@ GSI's GitHub:  https://github.com/guild-st-isidore-TO
 
 ### Inaugural project: EMEL (Editoris Melicorum)
 
+![EMEL banner](./design/img/edi_melicorum_pic.png)
+
 GSI's music typesetting toolkit
 
-Repo: https://github.com/guild-st-isidore-TO/editorismelicorum  
-Presentation to local coding group: https://www.youtube.com/watch?v=-J6NshzFpCY
+Repository: https://github.com/guild-st-isidore-TO/editorismelicorum  
+
+Presentation for [Creative Code TO](https://creativecodetoronto.github.io/):  
+https://www.youtube.com/watch?v=-J6NshzFpCY
