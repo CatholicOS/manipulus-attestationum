@@ -8,9 +8,9 @@ A tool that allows for creating side-by-side scripture citations in two or three
 
 ![Presentation slide (2)](./design/img/presentation-2.jpg)
 
-![Presentation slide (3)](./design/img/presentation-3.jpg)
-
 ## Design & Documentation
+
+![Presentation slide (3)](./design/img/presentation-3.jpg)
 
 - [Feature Set](./design/feature-set.md)
 - [Interface](./design/system-design-interface.md)

@@ -15,4 +15,4 @@
 
 ## Sequence Diagram
 
-![Sequence Diagram](./img/matte-sequence-diagram.drawio.png)
+![Sequence Diagram](./img/matte-sequence-diagram.drawio-1.2.png)
