@@ -1,4 +1,4 @@
-from .packager import package_files
+from packager import package_files
 
 def format_files(scripture_data):
   print(f'[Formatter] Formatting files with spec: {scripture_data}.')

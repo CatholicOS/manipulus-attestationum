@@ -1,17 +1,19 @@
-from .api_manager import call_api
-from .local_fs_manager import lookup_local
+from api_manager import call_api
+from local_fs_manager import lookup_local
 
 
 def api_lookup(api_job):
     print(f"[Query Handler] Looking up API: {api_job}.")
     endpoint = f"placeholder made with: {api_job}."
     call_api(endpoint)
+    return {}
 
 
 def local_lookup(local_job):
     print(f"[Query Handler] Looking up local files: {local_job}.")
     filepath = f"placeholder made with: {local_job}."
     lookup_local(filepath)
+    return {}
 
 
 def handle_query(query):

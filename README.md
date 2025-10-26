@@ -8,6 +8,17 @@ A tool that allows for creating side-by-side scripture citations in two or three
 
 ![Presentation slide (2)](./design/img/presentation-2.jpg)
 
+## Usage
+
+`python src/matte/matte.py -i “path/to/input.json” -o “/somewhere/there” -c “path/to/config.json”`
+
+### Development
+
+#### Options / Help dialog
+
+From the root directory:  
+`python -m src/matte/matte -h`
+
 ## Hackathon Planning
 
 - **[TO-DO LIST](./hackathon-todo.md)**
@@ -29,15 +40,6 @@ Structure - System Diagram
 - [Tools](./design/tools.md)
 - [Data Sources](./design/data-sources.md)
 - [Models / Entities](./design/entities.md)
-
-## Usage
-
-### Development
-
-#### Options / Help dialog
-
-From the root directory:  
-`python src/matte/matte.py -h`
 
 ## Guild of St. Isidore (TO)
 
