@@ -16,6 +16,15 @@ A tool that allows for creating side-by-side scripture citations in two or three
 - [Interface](./design/system-design-interface.md)
 - [Structure](./design/system-design-structure.md)
 
+## Usage
+
+### Development
+
+#### Options / Help dialog
+
+From the root directory:  
+`python src/matte/matte.py -h`
+
 ## Guild of St. Isidore (TO)
 
 Founded just one month before the announcement of the All Saints Hackathon, the GSI was founded to try and bring open-source software culture to church. The Guild of St. Isidore builds free and open source tools and plugins for Catholic parishes and the creative community.  
