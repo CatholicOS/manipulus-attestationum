@@ -6,7 +6,7 @@ Models and entities used throughout the system.
 
 ## Main modules
 
-![Sequence Diagram](./img/matte-sequence-diagram.drawio-1.3.png)
+![Sequence Diagram](./img/matte-sequence-diagram.drawio-1.4.png)
 
 ### Request Handler
 
