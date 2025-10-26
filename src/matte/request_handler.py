@@ -1,2 +1,2 @@
-def demo():
-  print("Hello from a function")
+def handle_request(req_json):
+  print(f'[Request Handler] Handling user request: {req_json}.')
