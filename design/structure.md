@@ -17,4 +17,4 @@
 
 ## Sequence Diagram
 
-![Sequence Diagram](./img/matte-sequence-diagram.drawio-1.2.png)
+![Sequence Diagram](./img/matte-sequence-diagram.drawio-1.3.png)
