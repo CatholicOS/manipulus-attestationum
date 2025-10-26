@@ -35,7 +35,7 @@ From the root directory:
 
 Structure - System Diagram
 
-![Sequence Diagram](./design/img/matte-sequence-diagram.drawio-1.4.png)
+![Sequence Diagram](./design/img/matte-sequence-diagram.drawio-1.5.png)
 
 ### Documentation
 
