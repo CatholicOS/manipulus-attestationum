@@ -8,8 +8,13 @@ A tool that allows for creating side-by-side scripture citations in two or three
 
 ![Presentation slide (2)](./design/img/presentation-2.jpg)
 
+## System Requirements
+
+- Python 3.13 or newer
+
 ## Usage
 
+From the root directory:  
 `python src/matte/matte.py -i “path/to/input.json” -o “/somewhere/there” -c “path/to/config.json”`
 
 ### Development
