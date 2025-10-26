@@ -15,6 +15,8 @@ A tool that allows for creating side-by-side scripture citations in two or three
 - [Feature Set](./design/feature-set.md)
 - [Interface](./design/system-design-interface.md)
 - [Structure](./design/system-design-structure.md)
+- [Tools](./design/tools.md)
+- [Data Sources](./design/data-sources.md)
 
 ## Usage
 
