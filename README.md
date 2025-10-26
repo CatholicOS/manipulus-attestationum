@@ -23,6 +23,7 @@ Structure - System Diagram
 - [Structure](./design/structure.md)
 - [Tools](./design/tools.md)
 - [Data Sources](./design/data-sources.md)
+- [Models / Entities](./design/entities.md)
 
 ## Usage
 
