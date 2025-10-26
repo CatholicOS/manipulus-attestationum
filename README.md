@@ -8,6 +8,11 @@ A tool that allows for creating side-by-side scripture citations in two or three
 
 ![Presentation slide (2)](./design/img/presentation-2.jpg)
 
+## Hackathon Planning
+
+- **[TO-DO LIST](./hackathon-todo.md)**
+- Original Planning doc: https://docs.google.com/document/d/1oKVF5h6FuXo1RusaRipKQqUHm7PCtn5oe76i4ZPhkk8/edit?usp=sharing
+
 ## Design & Documentation
 
 ![Presentation slide (3)](./design/img/presentation-3.jpg)
