@@ -12,9 +12,15 @@ A tool that allows for creating side-by-side scripture citations in two or three
 
 ![Presentation slide (3)](./design/img/presentation-3.jpg)
 
+Structure - System Diagram
+
+![Sequence Diagram](./design/img/matte-sequence-diagram.drawio-1.2.png)
+
+### Documentation
+
 - [Feature Set](./design/feature-set.md)
-- [Interface](./design/system-design-interface.md)
-- [Structure](./design/system-design-structure.md)
+- [Interface](./design/interface.md)
+- [Structure](./design/structure.md)
 - [Tools](./design/tools.md)
 - [Data Sources](./design/data-sources.md)
 
