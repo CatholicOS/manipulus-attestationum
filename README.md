@@ -53,13 +53,13 @@ Headquartered in Toronto, 🇨🇦
 
 GSI's GitHub:  https://github.com/guild-st-isidore-TO
 
-### Inaugural project: EMEL (Editoris Melicorum)
+### Inaugural project: EdiMeli (Editoris Melicorum)
 
 ![EMEL banner](./design/img/edi_melicorum_pic.png)
 
 GSI's music typesetting toolkit
 
-Repository: https://github.com/guild-st-isidore-TO/editorismelicorum  
+Repository: https://github.com/guild-st-isidore-TO/edimeli  
 
 Presentation for [Creative Code TO](https://creativecodetoronto.github.io/):  
 https://www.youtube.com/watch?v=-J6NshzFpCY
